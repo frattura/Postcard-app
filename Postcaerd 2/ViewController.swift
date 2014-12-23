@@ -30,12 +30,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
-
+        // adding a comment to test git commit
         MessageLabel.hidden = false
         MessageLabel.text = EnterMessageTextField.text
         EnterMessageTextField.text = ""
         EnterMessageTextField.resignFirstResponder()
-        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)        
+        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
 
 }
